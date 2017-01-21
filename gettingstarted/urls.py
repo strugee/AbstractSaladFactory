@@ -10,6 +10,7 @@ import salads.views
 # url(r'^blog/', include('blog.urls')),
 
 urlpatterns = [
+    url(r'^$', include('root.urls')),
     url(r'^salads/', include('salads.urls')),
    # url(r'^db', salads.views.db, name='db'),
     url(r'^admin/', include(admin.site.urls)),
