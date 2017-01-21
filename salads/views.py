@@ -14,7 +14,6 @@ PROTEIN = "Protein"
 DRESSING = "Dressing"
 OTHER = "Other"
 
-
 def saladStatus(request, salad_id):
     try:
         this_salad = Salad.objects.get(pk=salad_id)
